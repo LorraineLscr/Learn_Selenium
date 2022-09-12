@@ -13,8 +13,8 @@
 
 <h2>Applications et utilisations de Selenium WebDriver</h2>
 
-<p>Selenium Webdriver est un outil puissant pour contrôler le navigateur Web via un programme. Il est fonctionnel pour tous les navigateurs, fonctionne sur tous les principaux systèmes d’exploitation et ses scripts sont écrits dans différents langages, à savoir Python, Java, C#, etc. Selenium Webdriver est un outil d’automatisation principal utilisé par les développeurs du monde entier.
-Cet article tourne autour des principales applications de Selenium WebDriver. Maîtriser Selenium vous aidera à automatiser vos tâches quotidiennes comme contrôler vos tweets, envoyer des SMS Whatsapp et même simplement googler sans ouvrir un navigateur en seulement 15 à 30 lignes de code python.</p>
+ <p>Selenium Webdriver est un outil puissant pour contrôler le navigateur Web via un programme. Il est fonctionnel pour tous les 
+ navigateurs, fonctionne sur tous les principaux systèmes d’exploitation et ses scripts sont écrits dans différents langages, à savoir Python, Java, C#, etc. Selenium Webdriver est un outil d’automatisation principal utilisé par les développeurs du monde entier.</p>
 
 <p>Selenium WebDriver est utilisé pour automatiser les tests d’applications Web afin de vérifier qu’elles fonctionnent comme prévu. Il prend en charge de nombreux navigateurs tels que Firefox, Chrome, IE et Safari. Cependant, en utilisant Selenium WebDriver, nous pouvons automatiser les tests pour les applications Web uniquement.</p>
 
