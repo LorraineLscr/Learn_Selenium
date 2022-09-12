@@ -11,7 +11,7 @@
 
 <br>
 
-<h2>Applications et utilisations de Selenium WebDriver</h2>
+<h2>Selenium WebDriver</h2>
 
  <p>Selenium Webdriver est un outil puissant pour contrôler le navigateur Web via un programme. Il est fonctionnel pour tous les 
  navigateurs, fonctionne sur tous les principaux systèmes d’exploitation et ses scripts sont écrits dans différents langages, à savoir Python, Java, C#, etc. Selenium Webdriver est un outil d’automatisation principal utilisé par les développeurs du monde entier.</p>
