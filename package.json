@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "chromedriver": "^105.0.0",
+    "geckodriver": "^3.0.2",
+    "selenium-webdriver": "^4.4.0"
+  },
+  "name": "selenium",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
