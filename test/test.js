@@ -1,6 +1,7 @@
 const { By, Key, Builder } = require("selenium-webdriver");
 require("chromedriver");
 
+// On crée une fonction asynchrone
 async function example() {
 
     // Ici on donne un exemple de recherche dans le navigateur
