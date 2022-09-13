@@ -19,7 +19,7 @@ async function example() {
 
     // On vérifie le titre de la page et on l'affiche dans le terminal
     var title = await driver.getTitle();
-    console.log('Title is:', title);
+    console.log('Le titre est :', title);
 
     // On utilise driver.quit pour fermer le navigateur
     await driver.quit();
