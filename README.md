@@ -22,6 +22,22 @@
 
 __READ MORE__ : https://www.selenium.dev/
 
+<br>
+
+<h2>Prérequis</h2>
+
+<br>
+
+Pour commencer installez la dernière version de nodejs : https://nodejs.org/en/download/
+<p>Vérifiez que nodejs soit bien installé à l'aide du terminal : node -v</p>
+<p>Créez un nouveau dossier que vous ouvrez avec VsCode : Exemple "DemoSelenium"</p>
+<p>Dans le terminal créez un nouveau package : npm init</p>
+<p>Et enfin installez : npm install selenium-webdriver</p> 
+
+https://www.npmjs.com/package/selenium-webdriver
+
+<p>Tout est prêt pour commencer !</p>
+
 
 
 
