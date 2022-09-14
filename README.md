@@ -28,21 +28,20 @@
  <p>Selenium Webdriver est un outil puissant pour contrôler le navigateur Web via un programme. Il est fonctionnel pour tous les 
  navigateurs, fonctionne sur tous les principaux systèmes d’exploitation et ses scripts sont écrits dans différents langages, à savoir Python, Java, C#, etc. Selenium Webdriver est un outil d’automatisation principal utilisé par les développeurs du monde entier.</p>
 
-<p>Selenium WebDriver est utilisé pour automatiser les tests d’applications Web afin de vérifier qu’elles fonctionnent comme prévu. Il prend en charge de nombreux navigateurs tels que Firefox, Chrome, IE et Safari. Cependant, en utilisant Selenium WebDriver, nous pouvons automatiser les tests pour les applications Web uniquement.</p>
-
+Selenium WebDriver est utilisé pour automatiser les tests d’applications Web afin de vérifier qu’elles fonctionnent comme prévu. Il prend en charge de nombreux navigateurs tels que Firefox, Chrome, IE et Safari. Cependant, en utilisant Selenium WebDriver, nous pouvons automatiser les tests pour les applications Web uniquement.<br>
 Plus d’informations : https://www.selenium.dev/
 <br><br>
 
 <h2>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mocha/mocha-plain.svg" height="40" width="52" alt="mocha logo"  />
  Mocha</h2>
 
-__Mocha__ est un framework de test JavaScript riche en fonctionnalités fonctionnant sur Node.js et dans le navigateur, rendant les tests asynchrones simples et amusants . Les tests Mocha s'exécutent en série, ce qui permet des rapports flexibles et précis, tout en mappant les exceptions non détectées aux cas de test corrects. Hébergé sur GitHub .
+__Mocha__ est un framework de test JavaScript riche en fonctionnalités fonctionnant sur Node.js et dans le navigateur, rendant les tests asynchrones simples et amusants . Les tests Mocha s'exécutent en série, ce qui permet des rapports flexibles et précis, tout en mappant les exceptions non détectées aux cas de test corrects. Hébergé sur GitHub .<br>
 Plus d’informations : https://mochajs.org/
 <br><br>
 
 <h2>Mochawesome</h2>
 
-__Mochawesome__ est un reporter Mocha personnalisé qui vous permet de créer des rapports de test HTML/CSS autonomes basés sur l'exécution de vos scripts de test Mocha. Mochawesome apporte l'intuitivité qui manque cruellement dans les rapports Mocha par défaut. Cela aide finalement à mieux gérer les builds d'automatisation des tests Selenium.
+__Mochawesome__ est un reporter Mocha personnalisé qui vous permet de créer des rapports de test HTML/CSS autonomes basés sur l'exécution de vos scripts de test Mocha. Mochawesome apporte l'intuitivité qui manque cruellement dans les rapports Mocha par défaut. Cela aide finalement à mieux gérer les builds d'automatisation des tests Selenium.<br>
 Plus d’informations : https://www.lambdatest.com/blog/how-to-generate-mocha-reports-with-mochawesome/
 
 
