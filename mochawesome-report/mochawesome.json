@@ -1,15 +1,15 @@
 {
   "stats": {
     "suites": 2,
-    "tests": 2,
+    "tests": 3,
     "passes": 2,
     "pending": 0,
-    "failures": 0,
-    "start": "2022-09-14T11:07:39.405Z",
-    "end": "2022-09-14T11:07:48.169Z",
-    "duration": 8764,
-    "testsRegistered": 2,
-    "passPercent": 100,
+    "failures": 1,
+    "start": "2022-09-14T11:41:31.359Z",
+    "end": "2022-09-14T11:41:41.538Z",
+    "duration": 10179,
+    "testsRegistered": 3,
+    "passPercent": 66.66666666666666,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "0fed06bd-a294-422a-b70a-cafd4b1b992a",
+      "uuid": "09e73535-e6fe-4516-b2cf-3899f552e0b8",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,46 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "1ccdeab5-0027-482c-a192-bec525b5ca8e",
-          "title": "add another todo tests",
-          "fullFile": "/Users/lorrainelescour/Desktop/SELENIUM/test/test2.js",
-          "file": "/test/test2.js",
-          "beforeHooks": [],
-          "afterHooks": [],
-          "tests": [
-            {
-              "title": "successfully adds another todo to application",
-              "fullTitle": "add another todo tests successfully adds another todo to application",
-              "timedOut": null,
-              "duration": 8053,
-              "state": "passed",
-              "speed": "slow",
-              "pass": true,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "// Ici on donne un exemple de recherche dans le navigateur\nvar searchString = \"Automation testing with Selenium and JavaScript\";\n// On crée une nouvelle instance de navigateur pour Google Chrome\nlet driver = await new Builder().forBrowser(\"chrome\").build();\n// On navigue vers l'application Web à l'aide du driver.get\nawait driver.get(\"http://google.com\");\n// On envoie une requête de recherche en passant la valeur dans searchString\nawait driver.findElement(By.id(\"L2AGLb\")).sendKeys(Key.RETURN);\nawait driver.findElement(By.name(\"q\")).sendKeys(searchString, Key.RETURN);\n// On vérifie le titre de la page et on l'affiche dans le terminal\nvar title = await driver.getTitle();\nconsole.log('Le titre est :', title);\n// On utilise driver.quit pour fermer le navigateur\nawait driver.quit();",
-              "err": {},
-              "uuid": "9118ab42-1275-46df-9047-be90ffec4f55",
-              "parentUUID": null,
-              "isHook": false,
-              "skipped": false
-            }
-          ],
-          "suites": [],
-          "passes": [
-            "9118ab42-1275-46df-9047-be90ffec4f55"
-          ],
-          "failures": [],
-          "pending": [],
-          "skipped": [],
-          "duration": 8053,
-          "root": false,
-          "rootEmpty": false,
-          "_timeout": null
-        },
-        {
-          "uuid": "12deae0e-1e78-455a-893e-ffb8b1a649d0",
+          "uuid": "7655b793-c75f-42c7-b62c-e625d49bd65f",
           "title": "add todo tests",
           "fullFile": "/Users/lorrainelescour/Desktop/SELENIUM/test/test.js",
           "file": "/test/test.js",
@@ -77,7 +38,7 @@
               "title": "successfully adds a todo to application",
               "fullTitle": "add todo tests successfully adds a todo to application",
               "timedOut": null,
-              "duration": 8292,
+              "duration": 9415,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -86,7 +47,7 @@
               "context": null,
               "code": "// Ici on donne un exemple de recherche dans le navigateur\nvar searchString = \"Automation testing with Selenium and JavaScript\";\n// On crée une nouvelle instance de navigateur pour Google Chrome\nlet driver = await new Builder().forBrowser(\"chrome\").build();\n// On navigue vers l'application Web à l'aide du driver.get\nawait driver.get(\"http://google.com\");\n// On envoie une requête de recherche en passant la valeur dans searchString\nawait driver.findElement(By.id(\"L2AGLb\")).sendKeys(Key.RETURN);\nawait driver.findElement(By.name(\"q\")).sendKeys(searchString, Key.RETURN);\n// On vérifie le titre de la page et on l'affiche dans le terminal\nvar title = await driver.getTitle();\nconsole.log('Le titre est :', title);\n// On utilise driver.quit pour fermer le navigateur\nawait driver.quit();",
               "err": {},
-              "uuid": "9f825095-6b32-429e-957d-42fdd1917264",
+              "uuid": "69063a59-5d47-4268-b115-b7ef8c31928e",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -94,12 +55,75 @@
           ],
           "suites": [],
           "passes": [
-            "9f825095-6b32-429e-957d-42fdd1917264"
+            "69063a59-5d47-4268-b115-b7ef8c31928e"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 8292,
+          "duration": 9415,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": null
+        },
+        {
+          "uuid": "cdb5b3a0-7109-4e71-bc20-8697c79277cc",
+          "title": "add another todo tests",
+          "fullFile": "/Users/lorrainelescour/Desktop/SELENIUM/test/test2.js",
+          "file": "/test/test2.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "successfully adds another todo to application",
+              "fullTitle": "add another todo tests successfully adds another todo to application",
+              "timedOut": null,
+              "duration": 6896,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// Ici on donne un exemple de recherche dans le navigateur\nvar searchString = \"Automation testing with Selenium and JavaScript\";\n// On crée une nouvelle instance de navigateur pour Google Chrome\nlet driver = await new Builder().forBrowser(\"chrome\").build();\n// On navigue vers l'application Web à l'aide du driver.get\nawait driver.get(\"http://google.com\");\n// On envoie une requête de recherche en passant la valeur dans searchString\nawait driver.findElement(By.id(\"L2AGLb\")).sendKeys(Key.RETURN);\nawait driver.findElement(By.name(\"q\")).sendKeys(searchString, Key.RETURN);\n// On vérifie le titre de la page et on l'affiche dans le terminal\nvar title = await driver.getTitle();\nconsole.log('Le titre est :', title);\n// On utilise driver.quit pour fermer le navigateur\nawait driver.quit();",
+              "err": {},
+              "uuid": "43e5e185-f38b-459a-9c1e-660404128c2f",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Ajouter un nouveau test pour les rapports",
+              "fullTitle": "add another todo tests Ajouter un nouveau test pour les rapports",
+              "timedOut": null,
+              "duration": 2839,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "// Ici on donne un exemple de recherche dans le navigateur\nvar searchString = \"Automation testing with Selenium and JavaScript\";\n// On crée une nouvelle instance de navigateur pour Google Chrome\nlet driver = await new Builder().forBrowser(\"chrome\").build();\n// On navigue vers l'application Web à l'aide du driver.get\nawait driver.get(\"http://google.com\");\n// On envoie une requête de recherche en passant la valeur dans searchString\nawait driver.findElement(By.name(\"L2AGLb\")).sendKeys(Key.RETURN);\nawait driver.findElement(By.name(\"q\")).sendKeys(searchString, Key.RETURN);\n// On vérifie le titre de la page et on l'affiche dans le terminal\nvar title = await driver.getTitle();\nconsole.log('Le titre est :', title);\n// On utilise driver.quit pour fermer le navigateur\nawait driver.quit();",
+              "err": {
+                "message": "NoSuchElementError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name=\"L2AGLb\"]\"}\n  (Session info: chrome=105.0.5195.102)",
+                "estack": "NoSuchElementError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name=\"L2AGLb\"]\"}\n  (Session info: chrome=105.0.5195.102)\n    at Object.throwDecodedError (node_modules/selenium-webdriver/lib/error.js:522:15)\n    at parseHttpResponse (node_modules/selenium-webdriver/lib/http.js:589:13)\n    at Executor.execute (node_modules/selenium-webdriver/lib/http.js:514:28)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async Driver.execute (node_modules/selenium-webdriver/lib/webdriver.js:740:17)\n    at async toWireValue (node_modules/selenium-webdriver/lib/webdriver.js:141:15)\n    at async /Users/lorrainelescour/Desktop/SELENIUM/node_modules/selenium-webdriver/lib/webdriver.js:191:16\n    at async forEachKey (node_modules/selenium-webdriver/lib/webdriver.js:185:9)\n    at async convertKeys (node_modules/selenium-webdriver/lib/webdriver.js:190:3)\n    at async Driver.execute (node_modules/selenium-webdriver/lib/webdriver.js:738:22)",
+                "diff": null
+              },
+              "uuid": "9732d896-1953-4846-9fe5-833da4b63aff",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "43e5e185-f38b-459a-9c1e-660404128c2f"
+          ],
+          "failures": [
+            "9732d896-1953-4846-9fe5-833da4b63aff"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 9735,
           "root": false,
           "rootEmpty": false,
           "_timeout": null

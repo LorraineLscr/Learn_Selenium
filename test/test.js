@@ -2,11 +2,11 @@ const { By, Key, Builder } = require("selenium-webdriver");
 require("chromedriver");
 
 // Description du block
-describe('add todo tests', () => {
+describe('Ajouter des tâches au test', () => {
 
     // Le block
-    it("successfully adds a todo to application", async function () {
-        
+    it("Ajout avec succès d'une tâche à l'application", async function () {
+
         // Ici on donne un exemple de recherche dans le navigateur
         var searchString = "Automation testing with Selenium and JavaScript";
 
