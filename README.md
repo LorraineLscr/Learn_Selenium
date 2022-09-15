@@ -43,8 +43,10 @@ Plus d’informations : https://mochajs.org/
 
 __Mochawesome__ est un reporter Mocha personnalisé qui vous permet de créer des rapports de test HTML/CSS autonomes basés sur l'exécution de vos scripts de test Mocha. Mochawesome apporte l'intuitivité qui manque cruellement dans les rapports Mocha par défaut. Cela aide finalement à mieux gérer les builds d'automatisation des tests Selenium.<br>
 Plus d’informations : https://www.lambdatest.com/blog/how-to-generate-mocha-reports-with-mochawesome/
+<br><br>
 
+<h2>🎨 Screen Mochawesome</h2>
 
-
+![](Screenshot/mochawesome.png)
 
 
