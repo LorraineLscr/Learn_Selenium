@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Lorraine</h1>
-<h3 align="center">I learn to use the Selenium framework</h3>
+<h3 align="center">I learn to use the Selenium with Mocha</h3>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
